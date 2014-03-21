@@ -7,7 +7,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/components\/js\/_bootstrap.js",
-		"outputAbbreviatedPath": "\/_\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/_\/js\/bootstrap-ck.js",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
@@ -17,7 +17,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/components\/js\/_myscript.js",
-		"outputAbbreviatedPath": "\/_\/js\/myscript.js",
+		"outputAbbreviatedPath": "\/_\/js\/myscript-ck.js",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
@@ -82,32 +82,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/components\/js\/jquery.js": {
+	"\/_\/components\/js\/jquery-2.1.0.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_\/components\/js\/jquery.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/components\/js\/min\/jquery-2.1.0-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-2.1.0-ck.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/min\/jquery-2.1.0-ck-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/components\/js\/min\/jquery-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-ck.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/min\/jquery-ck-ck.js",
+		"inputAbbreviatedPath": "\/_\/components\/js\/jquery-2.1.0.js",
+		"outputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-2.1.0-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1537,22 +1517,12 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/_\/js\/bootstrap.js": {
+	"\/_\/js\/bootstrap-ck.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/bootstrap-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/js\/myscript.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/myscript.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/myscript-ck.js",
+		"inputAbbreviatedPath": "\/_\/js\/bootstrap-ck.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/bootstrap-ck-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
