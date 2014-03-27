@@ -1,7 +1,15 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "16877",
 "files": {
+	"\/_\/components\/css\/print.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/css\/print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/_\/components\/js\/_bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -82,42 +90,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/components\/js\/jquery.js": {
+	"\/_\/components\/js\/jquery-2.1.0.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_\/components\/js\/jquery.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/components\/js\/min\/dropdown-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/js\/min\/dropdown-ck.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/min\/dropdown-ck-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/components\/js\/min\/jquery-2.1.0-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-2.1.0-ck.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/min\/jquery-2.1.0-ck-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/components\/js\/min\/jquery-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-ck.js",
-		"outputAbbreviatedPath": "\/_\/components\/js\/min\/min\/jquery-ck-ck.js",
+		"inputAbbreviatedPath": "\/_\/components\/js\/jquery-2.1.0.js",
+		"outputAbbreviatedPath": "\/_\/components\/js\/min\/jquery-2.1.0-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1322,6 +1300,25 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_\/components\/less\/reponsive-utilities.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_\/components\/less\/reponsive-utilities.less",
+		"outputAbbreviatedPath": "\/_\/components\/css\/reponsive-utilities.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_\/components\/less\/responsive-embed.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1332,25 +1329,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/components\/less\/responsive-embed.less",
 		"outputAbbreviatedPath": "\/_\/components\/css\/responsive-embed.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/_\/components\/less\/responsive-utilities.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/components\/less\/responsive-utilities.less",
-		"outputAbbreviatedPath": "\/_\/components\/css\/responsive-utilities.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,
@@ -1531,6 +1509,14 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_\/components\/php\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/php\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/_\/css\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1547,25 +1533,61 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/_\/js\/bootstrap.js": {
+	"\/_\/js\/bootstrap-ck.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/bootstrap-ck.js",
+		"inputAbbreviatedPath": "\/_\/js\/bootstrap-ck.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/bootstrap-ck-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/js\/myscript.js": {
+	"\/_\/js\/myscript-ck.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/js\/myscript.js",
-		"outputAbbreviatedPath": "\/_\/js\/min\/myscript-ck.js",
+		"inputAbbreviatedPath": "\/_\/js\/myscript-ck.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/myscript-ck-ck.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/about.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/misc\/logo-OuiSkin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17092,
+		"inputAbbreviatedPath": "\/images\/misc\/logo-OuiSkin.png",
+		"outputAbbreviatedPath": "\/images\/misc\/logo-OuiSkin.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/misc\/logo-OuiSkin_400X185.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21728,
+		"inputAbbreviatedPath": "\/images\/misc\/logo-OuiSkin_400X185.png",
+		"outputAbbreviatedPath": "\/images\/misc\/logo-OuiSkin_400X185.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
