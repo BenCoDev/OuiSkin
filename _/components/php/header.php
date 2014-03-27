@@ -2,8 +2,7 @@
     <div class="col-lg-12">
         <header class="clearfix">
             <section id="branding">
-                <a href="index.php"><img src="images/misc/logo-OuiSkin.png" alt="logo for OuiSkin"</a>
-                <h2>test</h2>
+                <a href="index.php"><img src="images/misc/logo-OuiSkin.png" alt="logo for OuiSkin"></a>
             </section><!--branding-->
             <div class="navbar">
                 <ul class="nav navbar-nav">
