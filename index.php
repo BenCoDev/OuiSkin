@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <meta charset="utf-8">
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>OuiSkin -- Home</title>
@@ -13,6 +13,7 @@
         <section class = "container">
             <div class="content row">
                 <section class = "main col col-lg-8">
+                    <?php include "_/components/php/header.php"; ?>
                 </section><!--main-->
                 <section class = "sidebar col col-lg-4">
                 </section><!--sidebar-->
