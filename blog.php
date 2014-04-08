@@ -11,8 +11,7 @@
     </head>
     <body id="blog">
             <section class = "container">
-            <?php include "_/components/php/header_left.php"; ?>
-            <?php include "_/components/php/header_right.php"; ?>
+            <?php include "_/components/php/header.php"; ?>
             <div class="content row">
                 <section class = "main col col-lg-8">
                     <p> Sunt cernantur efflorescere, ipsum nescius distinguantur eu de et cohaerescant, 
