@@ -1,2 +1,0 @@
-
-//# sourceMappingURL=./myscript-ck.map
