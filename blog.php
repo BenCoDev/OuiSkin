@@ -11,8 +11,9 @@
     </head>
     <body id="blog">
             <section class = "container">
-            <?php include "_/components/php/header.php"; ?>
             <div class="content row">
+                <?php include "_/components/php/header.php"; ?>
+                <?php include "_/components/php/snippet-carousel.php"; ?>
                 <section class = "main col col-lg-8">
                     <p> Sunt cernantur efflorescere, ipsum nescius distinguantur eu de et cohaerescant, 
                         possumus graviterque ne laborum aut cillum eiusmod cupidatat, culpa nam offendit 
@@ -42,8 +43,8 @@
                         officia, quem aut ad lorem cupidatat.
                     </p>
                 </section><!--sidebar-->
+                <?php include "_/components/php/footer.php"; ?>
             </div><!-- content-->
-            <?php include "_/components/php/footer.php"; ?>
         </section><!-- container-->
         <script src="_/js/bootstrap.js"></script>
         <script src="_/js/myscript.js"></script>
