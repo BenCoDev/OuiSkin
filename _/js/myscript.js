@@ -1,2 +1,2 @@
-$(function(){$("#home a:contains('Home')").parent().addClass("active"),$("#blog a:contains('Blog')").parent().addClass("active"),$("#about a:contains('About')").parent().addClass("active"),$("#subscribe-form").collapse({toggle:!0})});
+$(function(){$("#home a:contains('Home')").parent().addClass("active"),$("#blog a:contains('Blog')").parent().addClass("active"),$("#about a:contains('About')").parent().addClass("active")});
 //# sourceMappingURL=./myscript.map

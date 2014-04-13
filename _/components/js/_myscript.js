@@ -6,8 +6,5 @@ $(function(){
     $("#about a:contains('About')").parent().addClass('active');
     
     //toggle the subscribe button
-    $('#subscribe-form').collapse({
-        toggle: true
-    })
             
  }); //JQuery is loaded
