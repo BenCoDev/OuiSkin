@@ -1,0 +1,145 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Spiral Pixel Design : Flati </title>
+		
+		
+        
+        <link href="selector/styles.css" rel="stylesheet" media="all" />
+        
+		
+		
+	
+		
+		
+		
+	
+		
+		
+		
+	        
+        <script type="text/javascript" src="selector/jquery-1.4.2.min.js"></script>
+        
+     <script type="text/javascript">
+$(document).ready(function() {
+  if (top.location != location) {
+    top.location.href = document.location.href ;
+  }
+});</script>
+   <script type="text/javascript">
+        
+        var theme_list_open = false;
+        
+        $(document).ready(function () {
+        
+        	function fixHeight () {
+        	
+        	var headerHeight = $("#switcher").height();
+        	        	
+        	$("#iframe").attr("height", (($(window).height() - 10) - headerHeight) + 'px');
+        	
+        	}
+        	
+        	$(window).resize(function () {
+               	
+        		fixHeight();
+        	
+        	}).resize();
+        	
+        	$("#theme_select").click( function () {
+        	
+        		if (theme_list_open == true) {
+        	
+        		$(".center ul li ul").fadeOut();
+        		
+        		theme_list_open = false;
+        		
+        		} else {
+        		
+        		$(".center ul li ul").fadeIn();         		
+        		
+        		theme_list_open = true;
+        		
+        		}
+        		
+        		return false;
+        	
+        	});
+        	
+        	$("#theme_list ul li a").click(function () {
+        	
+        	var theme_data = $(this).attr("rel").split(",");
+        	        	
+        	$("li.purchase a").attr("href", theme_data[1]);
+        	$("li.remove_frame a").attr("href", theme_data[0]);
+        	$("#iframe").attr("src", theme_data[0]);
+        	
+        	$("#theme_list a#theme_select").text($(this).text());
+        	
+        	$(".center ul li ul").hide();
+        	
+        	theme_list_open = false;
+        	
+        	return false;
+        	
+        	});
+        
+        var cHeight = $("#iframe").height();
+			$('.remove_frame').click(function(){
+				var redirecturl = $("li.purchase a").attr("href", theme_data[1]);
+				$("#switcher").css({zIndex:-99}).fadeOut();
+				$("#iframe").animate({marginTop:0}).css({height:cHeight + 70});
+				window.location.href = redirecturl;
+				return false;
+			})
+			});
+        
+        </script>
+            
+        <script>
+		
+		$('.remove_frame').delegate('a','click',function(){
+			
+			window.location="urlredirect";
+    top.location.href=$('#iframe')[0].contentWindow.location.href;
+    return false;
+});
+
+</script>
+</head>
+
+<body>
+
+	<div id="switcher">
+	
+		<div class="center">
+		
+		<ul>
+		
+		<li><a href="http://www.spiralpixel.com"><img src="selector/logo.png" alt="" class="logo"/></a></li>
+		
+		<li id="theme_list"><a id="theme_select" href="#">Flati </a>
+		
+			<ul>
+<li><a href="#" rel="http://wordpress-themes.derby-web-design-agency.co.uk/flati/,http://themeforest.net/item/flati-responsive-flat-bootstrap-wordpress-theme/6184186?ref=spiralpixel">Flati <span class="product-type">Portfolio</span><span class="product-preview"><img src="http://3.s3.envato.com/files/74498111/Screenshots/00_main.__large_preview.jpg" /></span></a></li><li><a href="#" rel="http://wordpress-themes.derby-web-design-agency.co.uk/minx/,http://themeforest.net/item/minx-responsive-bootstrap-wordpress-theme/5357677?ref=spiralpixel">Minx <span class="product-type">Portfolio</span><span class="product-preview"><img src="http://2.s3.envato.com/files/63984607/Screenshot/preview.__large_preview.jpg" /></span></a></li><li><a href="#" rel="http://wordpress-themes.derby-web-design-agency.co.uk/tango/,http://themeforest.net/item/tango-bootstrap-responsive-html5-wordpress-theme/4884066?ref=spiralpixel">Tango <span class="product-type">Portfolio</span><span class="product-preview"><img src="http://0.s3.envato.com/files/58225566/Screenshots/01_preview.__large_preview.jpg" /></span></a></li></ul>	
+		
+			
+		<li class="remove_frame" rel="http://wordpress-themes.derby-web-design-agency.co.uk/flati/"><a href="http://wordpress-themes.derby-web-design-agency.co.uk/flati/"></a></li>	
+		<li class="purchase" rel="http://themeforest.net/item/flati-responsive-flat-bootstrap-wordpress-theme/6184186?ref=spiralpixel"><a href="http://themeforest.net/item/flati-responsive-flat-bootstrap-wordpress-theme/6184186?ref=spiralpixel"></a></li>		
+		
+		</div>
+		
+		</ul>
+	
+	</div>
+	
+    <iframe id="iframe" src="http://wordpress-themes.derby-web-design-agency.co.uk/flati/" frameborder="0" width="100%"></iframe>
+    
+</body>
+
+</html>
+

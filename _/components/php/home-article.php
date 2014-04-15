@@ -6,6 +6,6 @@
         <p>Get personalized feedback and advice</p>
         <p>To enhance your relationship with your daily cosmetics</p>
         <button type="button" class="btn btn-primary btn-lg pull-right">
-            <span id="inpageCTA" class="glyphicon glyphicon-heart left"></span>Help Us</button> 
+            <span id="inpageCTA" class="glyphicon glyphicon-heart left"></span> Help Us</button> 
     </div>
 </div>

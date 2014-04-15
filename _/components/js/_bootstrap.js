@@ -11,3 +11,4 @@
 // @codekit-prepend "popover.js"
 // @codekit-prepend "scrollspy.js"
 // @codekit-prepend "tab.js"
+// @codekit-prepend "skrollr.js"

@@ -7,14 +7,14 @@
         </div><!--column-->
         <div class="col-lg-8">           
             <nav role="navigation">
-                <ul class="nav nav-pills nav-justified">
+                <ul class="nav nav-justified">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="about.php">About</a></li>
                 </ul>
             </nav><!--navbar-->
-            <button type="button" class="btn btn-default btn-lg center-block">
-        <span class="glyphicon glyphicon-heart"></span>Help Us</button>  
+            <button type="button" class="btn btn-primary btn-lg center-block">
+        <span class="glyphicon glyphicon-heart"></span> Help Us</button>  
         </div><!--column-->
     </div><!--content-->
 </header><!--clearfix-->
